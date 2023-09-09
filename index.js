@@ -17,10 +17,6 @@ app.get("/", (req, res) => {
   res.json("Bienvenue sur l'API sur le projet flight de HD7594");
 });
 
-app.get("/flight/list", (req, res) => {
-  res.json("liste des vols ");
-});
-
 app.listen(process.env.PORT, (req, res) => {
   console.log("new server running");
 });
